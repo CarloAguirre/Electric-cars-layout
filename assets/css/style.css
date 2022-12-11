@@ -152,6 +152,12 @@ footer svg:hover {
 }
 
 @media (min-width: 992px) {
+  body {
+    grid-template-rows: 0.5fr 6fr 0.3fr 1.5fr;
+  }
+  .cards-wrapper{
+    height: 70vh;
+  }
   .first-row,
   .second-row {
     display: flex;
@@ -165,23 +171,16 @@ footer svg:hover {
     flex-direction: row;
     margin-right: 0;
   }
-}
+
+  }
+
 @media (min-width: 1440px){
   footer p {
     padding: 0.2rem;
     height: 10vh;
   }
   body {
-    display: grid;
-    min-height: 100vh;
-    height: 100vh;
     grid-template-rows: 0.5fr 6fr 0.3fr .8fr;
-    grid-template-columns: 1fr 8fr;
-    grid-template-areas:
-      "nav aside"
-      "nav main"
-      "footer main"
-      "footer main";
   }
   .cards-wrapper {
     height: 80vh;
