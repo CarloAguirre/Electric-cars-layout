@@ -40,6 +40,7 @@ aside p {
 }
 main {
   grid-area: main;
+  justify-content: center;
 }
 menu {
   display: none;
@@ -134,12 +135,17 @@ footer svg:hover {
   }
 
   .first-row__tablet,
+
+  .third-row__tablet {
+
+    margin-right: 1.5rem;
+  }
+  .first-row__tablet,
   .second-row__tablet,
   .third-row__tablet,
-  .fourth-row__tablet {
+  .fourth-row__tablet{
     display: flex;
     flex-direction: column;
-    margin-right: 1.5rem;
   }
   footer p {
     padding: 0.2rem;
@@ -150,6 +156,7 @@ footer svg:hover {
   .first-row,
   .second-row {
     display: flex;
+    margin-right: 0;
   }
 
   .first-row__tablet,
