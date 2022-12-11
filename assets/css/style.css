@@ -153,10 +153,10 @@ footer svg:hover {
 
 @media (min-width: 992px) {
   body {
-    grid-template-rows: 0.5fr 6fr 0.3fr 1.5fr;
+    grid-template-rows: 0.5fr 6fr 0.3fr 1.8fr;
   }
   .cards-wrapper{
-    height: 70vh;
+    height: 64vh;
   }
   .first-row,
   .second-row {
