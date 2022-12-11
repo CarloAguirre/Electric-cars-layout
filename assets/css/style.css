@@ -83,7 +83,7 @@ footer svg:hover {
   body {
     display: grid;
     min-height: 100vh;
-    height: auto;
+    height: 100vh;
     grid-template-rows: 0.5fr 6fr 0.3fr 1fr;
     grid-template-columns: 1fr 8fr;
     grid-template-areas:
@@ -123,7 +123,7 @@ footer svg:hover {
     justify-content: space-around;
   }
   .cards-wrapper {
-    height: 78vh;
+    height: 70vh;
     margin-left: 1rem;
   }
   .hamburguesa-icon {
@@ -147,6 +147,7 @@ footer svg:hover {
   }
   footer p {
     padding: 0.2rem;
+    min-height: 7vh;
   }
 }
 
@@ -163,5 +164,26 @@ footer svg:hover {
   .fourth-row__tablet {
     flex-direction: row;
     margin-right: 0;
+  }
+}
+@media (min-width: 1440px){
+  footer p {
+    padding: 0.2rem;
+    height: 10vh;
+  }
+  body {
+    display: grid;
+    min-height: 100vh;
+    height: 100vh;
+    grid-template-rows: 0.5fr 6fr 0.3fr .8fr;
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas:
+      "nav aside"
+      "nav main"
+      "footer main"
+      "footer main";
+  }
+  .cards-wrapper {
+    height: 80vh;
   }
 }
