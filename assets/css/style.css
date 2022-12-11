@@ -85,7 +85,7 @@ footer svg:hover {
     display: grid;
     max-height: 100vh;
     grid-template-rows: 0.5fr 6fr 0.3fr 1fr;
-    grid-template-columns: 1fr 7fr;
+    grid-template-columns: 1fr 8fr;
     grid-template-areas:
       "nav aside"
       "nav main"
@@ -135,15 +135,13 @@ footer svg:hover {
   }
 
   .first-row__tablet,
-
   .third-row__tablet {
-
     margin-right: 1.5rem;
   }
   .first-row__tablet,
   .second-row__tablet,
   .third-row__tablet,
-  .fourth-row__tablet{
+  .fourth-row__tablet {
     display: flex;
     flex-direction: column;
   }
