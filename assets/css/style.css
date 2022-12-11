@@ -83,7 +83,7 @@ footer svg:hover {
   body {
     display: grid;
     min-height: 100vh;
-    height: 100vh;
+    height: 100%;
     grid-template-rows: 0.5fr 6fr 0.3fr 1fr;
     grid-template-columns: 1fr 8fr;
     grid-template-areas:
